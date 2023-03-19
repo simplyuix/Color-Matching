@@ -13,6 +13,7 @@
 		96EDD71529C716FC00393B04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96EDD71429C716FC00393B04 /* Preview Assets.xcassets */; };
 		96EDD71C29C7178900393B04 /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EDD71B29C7178900393B04 /* ColorCircle.swift */; };
 		96EDD71E29C71ABF00393B04 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EDD71D29C71ABF00393B04 /* ColorExtensions.swift */; };
+		96EDD72029C76E4700393B04 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EDD71F29C76E4700393B04 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		96EDD71429C716FC00393B04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96EDD71B29C7178900393B04 /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 		96EDD71D29C71ABF00393B04 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		96EDD71F29C76E4700393B04 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				96EDD70D29C716FB00393B04 /* ColorMatchingApp.swift */,
 				96EDD70F29C716FB00393B04 /* ContentView.swift */,
+				96EDD71F29C76E4700393B04 /* GameView.swift */,
 				96EDD71D29C71ABF00393B04 /* ColorExtensions.swift */,
 				96EDD71B29C7178900393B04 /* ColorCircle.swift */,
 				96EDD71129C716FC00393B04 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 				96EDD70E29C716FB00393B04 /* ColorMatchingApp.swift in Sources */,
 				96EDD71C29C7178900393B04 /* ColorCircle.swift in Sources */,
 				96EDD71E29C71ABF00393B04 /* ColorExtensions.swift in Sources */,
+				96EDD72029C76E4700393B04 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorMatching/Preview Content\"";
+				DEVELOPMENT_TEAM = 68WS2M23VC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -282,6 +287,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ColorMatching/Preview Content\"";
+				DEVELOPMENT_TEAM = 68WS2M23VC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -310,6 +317,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
