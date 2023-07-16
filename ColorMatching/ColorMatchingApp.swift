@@ -2,7 +2,7 @@
 //  ColorMatchingApp.swift
 //  ColorMatching
 //
-//  Created by Meng To on 2023-03-19.
+//  Created by Aman Singh To on 2023-03-20.
 //
 
 import SwiftUI

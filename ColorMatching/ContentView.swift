@@ -43,7 +43,7 @@ struct ContentView: View {
                         .font(.title3).bold()
                         .padding(30)
                         .background(Circle().stroke(lineWidth: 5))
-                        .foregroundColor(.black)
+                        .foregroundColor(.primary)
                         .mask(Circle())
                 }
             }
